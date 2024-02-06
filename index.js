@@ -6,7 +6,7 @@ const postRoutes = require('./routes/postRoutes');
 const followRoutes = require('./routes/followRoutes');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 // HEALTH CHECK

@@ -15,6 +15,5 @@ connection.connect((err) => {
   }
 });
 
-console.log('hehe')
 
 module.exports = connection;

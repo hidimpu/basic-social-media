@@ -1,4 +1,3 @@
-// controllers/postController.js
 const postService = require('../services/postService');
 
 exports.createPost = async (req, res) => {
